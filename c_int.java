@@ -7,10 +7,17 @@ public class c_int
 {
     byte[] buf = new byte[4];
 
-    public c_int()
-    {
+    public c_int(){}
 
-    }
+    // public c_int(int x)
+    // {
+    //     buf = this.setValue(x);
+    // }
+
+    // public c_int(bytes[] b)
+    // {
+    //     buf = b;
+    // }
 
     public int getSize()
     {

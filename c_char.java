@@ -3,20 +3,20 @@ import java.util.*;
 
 public class c_char
 {
-    boolean valid;
+    char c;
 
     public c_char()
     {
 
     }
 
-    public boolean getValue()
+    public char getValue()
     {
-        return valid;
+        return c;
     }
 
-    public void setValue(boolean v)
+    public void setValue(char x)
     {
-        valid = v;
+        c = x;
     }
 }

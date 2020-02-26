@@ -1,0 +1,10 @@
+Remote Procedure Calls by Yash Lekhwani
+
+The purpose of the two programs here is to have remote procedure calls for functions defined and declareed in server.cpp but executed on the Java side.
+The information is sent using TCP in a byte array as described by the specification.
+
+Test.java shows examples for both localtime and localos.
+
+PLEASE KEEP IN MIND THE FOLLOWING THINGS TO RUN THE PROGRAM:
+
+For the number of times you execute code, add as many listeners on the main function in c side
